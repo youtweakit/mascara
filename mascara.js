@@ -16,8 +16,8 @@ function createDefaultProvider (opts = {}) {
   //
 
   const provider = setupProvider({
-    mascaraUrl: host + '/proxy/',
-  })
+    mascaraUrl: host + '/metamask',
+  });
   instrumentForUserInteractionTriggers(provider)
 
   //
