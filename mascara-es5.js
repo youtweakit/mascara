@@ -20,8 +20,7 @@ function createDefaultProvider() {
   //
 
   var provider = setupProvider({
-    mascaraUrl: host + '/proxy/'
-  });
+    mascaraUrl: host}); //for use with Ico-wizard + Infura
   instrumentForUserInteractionTriggers(provider);
 
   //
